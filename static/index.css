@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'TAEBAEKfont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+#homebtn
+{
+    color: rgba(250, 235, 215, 0);
+    background-size: 100% 100%;
+    font-size: 30px;
+    background-image: url('img/home-button.png');
+}
+html
+{
+    background-size: 100% 100%;
+    background-image: url('img/dark-blue-product-background.jpg');
+    background-size: cover;
+}
+#tag
+{
+    font-size: 30px;
+    margin: 0;
+    font-family: 'TAEBAEKfont';
+}
+#screen
+{
+    width: 1300px;
+    height: 650px;
+    background-image: url('img/screen-1315650_1280.png');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+}
+#cam
+{
+    
+    display: flex;
+    margin-top: 42px;
+}
+
+@media (max-width:1300px) {
+
+    #screen{
+        max-width: 730px;
+    }
+    #cam{
+        max-width: 620px;
+    }
+    }
+@media (max-width:800px) {
+
+    #screen{
+        max-width: 430px;
+    }
+    #cam{
+        max-width: 363px;
+    }
+    }
+
+    
+
+.hover
+{
+    font-family: 'TAEBAEKfont';
+    margin-top: 5px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    background-color: rgba(128, 128, 128, 0);
+}
+.hover:hover
+{
+    
+    font-family: 'TAEBAEKfont';
+    color: rgb(223, 85, 85);
+}

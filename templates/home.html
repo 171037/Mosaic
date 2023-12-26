@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='home.css')}}">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="all">
+        <h1 id="name" style="color: rgb(160, 160, 160); display: flex; justify-content: center;">자동 모자이크 시스템</h1>
+        
+        <div >
+            <div id="btn1" style="display: flex; justify-content: center;">
+                <button id="cctv">모자이크 영상</button>
+            </div >
+            <div id="btn2" style="display: flex; justify-content: center;">
+                <button id="ori">원본 영상</button>
+            </div>
+            <div id="btn3" style="display: flex; justify-content: center;">
+                <button id="info">더보기</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="{{url_for('static',filename='home.js')}}"></script>
+</html>
